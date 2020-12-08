@@ -1,4 +1,15 @@
 import React, {Component} from 'react'
+import laptop from '../../../../Assets/laptop/laptop4.png'
+import webcam from '../../../../Assets/webcam/3.png'
+import microphone from '../../../../Assets/micro/7.png'
+import screen from '../../../../Assets/screen/8.png'
+import stationerie from '../../../../Assets/stationeries/4.png'
+import printer from '../../../../Assets/printer/6.png'
+import support from '../../../../Assets/supports/3.png'
+import keymouse from  '../../../../Assets/keymouse/1.png'
+import blog from '../../../../Assets/blog/images.jpg'
+
+
 
 
 
@@ -12,7 +23,7 @@ export default class Squared extends Component{
                     <div className="col-sm">
                         <div className="card-image">
                             <figure className="image is-4by3">
-                                <img src="https://bulma.io/images/placeholders/1280x960.png"
+                                <img src={laptop}
                                      alt="Placeholder image"/>
                             </figure>
                         </div>
@@ -27,7 +38,7 @@ export default class Squared extends Component{
 
                         <div className="card-image">
                             <figure className="image is-4by3">
-                                <img src="https://bulma.io/images/placeholders/1280x960.png"
+                                <img src={webcam}
                                      alt="Placeholder image"/>
                             </figure>
                         </div>
@@ -41,7 +52,7 @@ export default class Squared extends Component{
                     <div className="col-sm">
                         <div className="card-image">
                             <figure className="image is-4by3">
-                                <img src="https://bulma.io/images/placeholders/1280x960.png"
+                                <img src={microphone}
                                      alt="Placeholder image"/>
                             </figure>
                         </div>
@@ -61,7 +72,7 @@ export default class Squared extends Component{
                     <div className="col-sm">
                         <div className="card-image">
                             <figure className="image is-4by3">
-                                <img src="https://bulma.io/images/placeholders/1280x960.png"
+                                <img src={screen}
                                      alt="Placeholder image"/>
                             </figure>
                         </div>
@@ -76,7 +87,7 @@ export default class Squared extends Component{
 
                         <div className="card-image">
                             <figure className="image is-4by3">
-                                <img src="https://bulma.io/images/placeholders/1280x960.png"
+                                <img src={stationerie}
                                      alt="Placeholder image"/>
                             </figure>
                         </div>
@@ -90,7 +101,7 @@ export default class Squared extends Component{
                     <div className="col-sm">
                         <div className="card-image">
                             <figure className="image is-4by3">
-                                <img src="https://bulma.io/images/placeholders/1280x960.png"
+                                <img src={printer}
                                      alt="Placeholder image"/>
                             </figure>
                         </div>
@@ -107,7 +118,7 @@ export default class Squared extends Component{
                     <div className="col-sm">
                         <div className="card-image">
                             <figure className="image is-4by3">
-                                <img src="https://bulma.io/images/placeholders/1280x960.png"
+                                <img src={support}
                                      alt="Placeholder image"/>
                             </figure>
                         </div>
@@ -120,7 +131,7 @@ export default class Squared extends Component{
 
                         <div className="card-image">
                             <figure className="image is-4by3">
-                                <img src="https://bulma.io/images/placeholders/1280x960.png"
+                                <img src={keymouse}
                                      alt="Placeholder image"/>
                             </figure>
                         </div>
@@ -133,7 +144,7 @@ export default class Squared extends Component{
                     <div className="col-sm">
                         <div className="card-image">
                             <figure className="image is-4by3">
-                                <img src="https://bulma.io/images/placeholders/1280x960.png"
+                                <img src={blog}
                                      alt="Placeholder image"/>
                             </figure>
                         </div>
