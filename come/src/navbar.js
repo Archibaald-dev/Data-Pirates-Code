@@ -15,7 +15,7 @@ class Navbar extends React.Component {
                 <div className="collapse navbar-collapse" id="navbarNavDropdown">
                     <ul className="navbar-nav">
                         <li className="nav-item active">
-                            <a className="nav-link" href="#">Home <span className="sr-only">(current)</span></a>
+                            <NavLink to="home" className="nav-link" href="#">Home <span className="sr-only">(current)</span></NavLink>
                         </li>
                         <li className="nav-item dropdown">
                             <NavLink to="/menu" className="nav-link dropdown-toggle" href="#" id="navbarDropdownMenuLink" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
@@ -34,7 +34,7 @@ class Navbar extends React.Component {
                             </div>
                         </li>
                         <li className="nav-item">
-                            <a className="nav-link" href="#">Contact</a>
+                            <NavLink to="contact" className="nav-link" href="#">Contact</NavLink>
                         </li>
 
                     </ul>

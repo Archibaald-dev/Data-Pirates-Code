@@ -1,1 +1,1 @@
-export {default as Squared} from './home/Home'
+export {default as Home} from './home/Home'

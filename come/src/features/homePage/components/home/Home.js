@@ -8,7 +8,7 @@ export default class Home extends Component{
             <div className="container">
 
                 <img src="Ass"/>
-                
+
 
             </div>
         )
