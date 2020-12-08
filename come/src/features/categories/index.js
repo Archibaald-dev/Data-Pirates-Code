@@ -5,10 +5,19 @@ import {Laptops, Webcams, Microphones, Screens, Stationeries, Printers, Supports
 const Categories = () =>{
         return(
             <div>
-                <Laptops/>
+                <Laptops />
+                <Webcams />
+                <Microphones />
+                <Screens />
+                <Stationeries />
+                <Printers />
+                <Webcams />
+                <Supports />
+                <KeyMouse />
+                <Blog />
             </div>
         )
-}
+    }
 
 
 export default Categories

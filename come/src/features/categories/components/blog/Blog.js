@@ -2,6 +2,7 @@ import React, { Component } from 'react'
 
 
 
+
 export default class Blog extends Component {
     render() {
         return (
@@ -9,7 +10,7 @@ export default class Blog extends Component {
                 <div className="row">
 
                     <div className="col-sm">
-                        <div className="card" style="width: 18rem;">
+                        <div className="card" >
                             <img className="card-img-top" src="..." alt="Card image cap"/>
                                 <div className="card-body">
                                     <h5 className="card-title">Card title</h5>
@@ -20,7 +21,7 @@ export default class Blog extends Component {
                         </div>
 
                         <div className="col-sm">
-                            <div className="card" style="width: 18rem;">
+                            <div className="card" >
                                 <img className="card-img-top" src="..." alt="Card image cap"/>
                                     <div className="card-body">
                                         <h5 className="card-title">Card title</h5>
@@ -31,7 +32,7 @@ export default class Blog extends Component {
                             </div>
 
                             <div className="col-sm">
-                                <div className="card" style="width: 18rem;">
+                                <div className="card" >
                                     <img className="card-img-top" src="..." alt="Card image cap"/>
                                         <div className="card-body">
                                             <h5 className="card-title">Card title</h5>
@@ -42,7 +43,7 @@ export default class Blog extends Component {
                                 </div>
 
                                 <div className="col-sm">
-                                    <div className="card" style="width: 18rem;">
+                                    <div className="card" >
                                         <img className="card-img-top" src="..." alt="Card image cap"/>
                                             <div className="card-body">
                                                 <h5 className="card-title">Card title</h5>
@@ -57,7 +58,7 @@ export default class Blog extends Component {
                                 <div className="row">
 
                                     <div className="col-sm">
-                                        <div className="card" style="width: 18rem;">
+                                        <div className="card" >
                                             <img className="card-img-top" src="..." alt="Card image cap"/>
                                                 <div className="card-body">
                                                     <h5 className="card-title">Card title</h5>
@@ -68,7 +69,7 @@ export default class Blog extends Component {
                                         </div>
 
                                         <div className="col-sm">
-                                            <div className="card" style="width: 18rem;">
+                                            <div className="card" >
                                                 <img className="card-img-top" src="..." alt="Card image cap"/>
                                                     <div className="card-body">
                                                         <h5 className="card-title">Card title</h5>
@@ -79,7 +80,7 @@ export default class Blog extends Component {
                                             </div>
 
                                             <div className="col-sm">
-                                                <div className="card" style="width: 18rem;">
+                                                <div className="card" >
                                                     <img className="card-img-top" src="..." alt="Card image cap"/>
                                                         <div className="card-body">
                                                             <h5 className="card-title">Card title</h5>
@@ -90,7 +91,7 @@ export default class Blog extends Component {
                                                 </div>
 
                                                 <div className="col-sm">
-                                                    <div className="card" style="width: 18rem;">
+                                                    <div className="card" >
                                                         <img className="card-img-top" src="..." alt="Card image cap"/>
                                                             <div className="card-body">
                                                                 <h5 className="card-title">Card title</h5>

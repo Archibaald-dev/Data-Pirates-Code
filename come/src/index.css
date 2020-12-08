@@ -43,3 +43,7 @@ code {
 .navbar .dropdown { 
   position:static !important; 
 } 
+
+.card img {
+  max-height: 200px;
+}
