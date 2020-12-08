@@ -1,5 +1,5 @@
 import React, {Component} from 'react'
-import laptop from '../../../../Assets/laptop/laptop4.png'
+import laptop from '../../../../Assets/laptop/4.png'
 import webcam from '../../../../Assets/webcam/3.png'
 import microphone from '../../../../Assets/micro/7.png'
 import screen from '../../../../Assets/screen/8.png'
