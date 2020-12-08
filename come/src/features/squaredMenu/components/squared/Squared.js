@@ -8,6 +8,7 @@ import printer from '../../../../Assets/printer/6.png'
 import support from '../../../../Assets/supports/3.png'
 import keymouse from  '../../../../Assets/keymouse/1.png'
 import blog from '../../../../Assets/blog/2.png'
+import {NavLink} from "react-router-dom";
 
 
 
@@ -20,7 +21,7 @@ export default class Squared extends Component{
 
                 <div className="row mb-5">
 
-                    <div className="col-sm">
+                    <NavLink to="article" className="col-sm">
                         <div className="card-image">
                             <figure className="image is-4by3">
                                 <img src={laptop}
@@ -32,7 +33,7 @@ export default class Squared extends Component{
                             <p className="title is-4">Laptops</p>
                         </div>
 
-                    </div>
+                    </NavLink>
 
                     <div className="col-sm">
 

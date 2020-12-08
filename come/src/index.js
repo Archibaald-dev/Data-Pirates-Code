@@ -20,6 +20,8 @@ const LazyPrinter = lazy(() => import(/*webpackChunkName: 'printers'*/'./feature
 const LazyStationery = lazy(() => import(/*webpackChunkName: 'stationeries'*/'./features/categories/components/stationeries/Stationeries'));
 const LazyLaptop = lazy(() => import(/*webpackChunkName: 'laptops'*/'./features/categories/components/laptops/Laptops'));
 const LazyBlog = lazy(() => import(/*webpackChunkName: 'blog'*/'./features/categories/components/blog/Blog'));
+const LazyArticle = lazy(()=> import(/*webpackChunkName: 'article'*/ './features/articles'))
+
 
 
 
@@ -50,6 +52,7 @@ class App extends Component{
                             <Route path="/printers" component = { LazyPrinter } />
                             <Route path="/supports" component = { LazySupport} />
                             <Route path="/blog" component = { LazyBlog} />
+                            <Route path="/article" component={LazyArticle}/>
 
 
                             <Redirect to="/home"/>
