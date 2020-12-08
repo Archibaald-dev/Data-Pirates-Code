@@ -11,3 +11,32 @@ code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
     monospace;
 }
+
+.navbar {
+  background-color: #4f3bff !important;
+}
+
+.navbar .navbar-collapse {
+  display: flex !important;
+  justify-content: center;
+}
+
+.navbar ul li {
+  color: #000;
+  margin: 0 20px;
+}
+
+.navbar .dropdown-menu { 
+  box-shadow: 0 .5rem 1rem rgba(0, 0, 0, .15)!important; 
+  margin-top:0px !important; 
+  width:100% !important; 
+  display: flex;
+} 
+
+.navbar .dropdown-menu a {
+  text-align: center;
+}
+
+.navbar .dropdown { 
+  position:static !important; 
+} 
