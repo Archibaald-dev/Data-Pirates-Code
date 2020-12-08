@@ -2,23 +2,24 @@ import React from 'react';
 import ReactDOM from 'react-dom';
 import './index.css';
 import {BrowserRouter, Route, Switch, Redirect, Link, NavLink} from 'react-router-dom';
+import logo from './Assets/Logo.png'
 
 
 class Navbar extends React.Component {
     render() {
         return (
             <nav className="navbar navbar-expand-lg navbar-light">
-                <a className="navbar-brand" href="#">Navbar</a>
+                <a className="navbar-brand" href="#"><img src={logo}/></a>
                 <button className="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNavDropdown" aria-controls="navbarNavDropdown" aria-expanded="false" aria-label="Toggle navigation">
                     <span className="navbar-toggler-icon"></span>
                 </button>
                 <div className="collapse navbar-collapse" id="navbarNavDropdown">
                     <ul className="navbar-nav">
                         <li className="nav-item active">
-                            <NavLink to="home" className="nav-link" href="#">Home <span className="sr-only">(current)</span></NavLink>
+                            <NavLink to="home" className="nav-link text-white" href="#">Home <span className="sr-only">(current)</span></NavLink>
                         </li>
                         <li className="nav-item dropdown">
-                            <NavLink to="/menu" className="nav-link dropdown-toggle" href="#" id="navbarDropdownMenuLink" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                            <NavLink to="/menu" className="nav-link dropdown-toggle text-white" href="#" id="navbarDropdownMenuLink" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
                                 Menu
                             </NavLink>
                             <div className="dropdown-menu" aria-labelledby="navbarDropdownMenuLink">
@@ -36,7 +37,7 @@ class Navbar extends React.Component {
                             </div>
                         </li>
                         <li className="nav-item">
-                            <NavLink to="contact" className="nav-link" href="#">Contact</NavLink>
+                            <NavLink to="contact" className="nav-link text-white" href="#">Contact</NavLink>
                         </li>
 
                     </ul>
