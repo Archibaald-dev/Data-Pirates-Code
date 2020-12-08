@@ -46,4 +46,13 @@ code {
 
 .card img {
   max-height: 200px;
+  min-height: 200px;
+}
+
+.container .row {
+  margin-top: 20px;
+}
+
+form {
+  padding: 50px;
 }
