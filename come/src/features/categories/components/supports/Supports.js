@@ -8,7 +8,7 @@ export default class Supports extends Component {
             <div className="container">
                 <div className="row">
                     <div className="col-sm">
-                        <div className="card" style="width: 18rem;">
+                        <div className="card" >
                             <img className="card-img-top" src="../../../../Assets/supports/2.png" alt="Card image cap"/>
                                 <div className="card-body">
                                     <h5 className="card-title">Asus</h5>
@@ -19,7 +19,7 @@ export default class Supports extends Component {
                         </div>
 
                         <div className="col-sm">
-                            <div className="card" style="width: 18rem;">
+                            <div className="card" >
                                 <img className="card-img-top" src="../../../../Assets/supports/3.png" alt="Card image cap"/>
                                     <div className="card-body">
                                         <h5 className="card-title">Lenovo</h5>
@@ -30,7 +30,7 @@ export default class Supports extends Component {
                             </div>
 
                             <div className="col-sm">
-                                <div className="card" style="width: 18rem;">
+                                <div className="card" >
                                     <img className="card-img-top" src="../../../../Assets/supports/4.png" alt="Card image cap"/>
                                         <div className="card-body">
                                             <h5 className="card-title">Apple</h5>
@@ -41,7 +41,7 @@ export default class Supports extends Component {
                                 </div>
 
                                 <div className="col-sm">
-                                    <div className="card" style="width: 18rem;">
+                                    <div className="card" >
                                         <img className="card-img-top" src="../../../../Assets/supports/2.png" alt="Card image cap"/>
                                             <div className="card-body">
                                                 <h5 className="card-title">Asus</h5>
@@ -55,7 +55,7 @@ export default class Supports extends Component {
 
                                 <div className="row">
                     <div className="col-sm">
-                        <div className="card" style="width: 18rem;">
+                        <div className="card" >
                             <img className="card-img-top" src="../../../../Assets/supports/5.png" alt="Card image cap"/>
                                 <div className="card-body">
                                     <h5 className="card-title">Asus</h5>
@@ -66,7 +66,7 @@ export default class Supports extends Component {
                         </div>
 
                         <div className="col-sm">
-                            <div className="card" style="width: 18rem;">
+                            <div className="card" >
                                 <img className="card-img-top" src="../../../../Assets/supports/6.png" alt="Card image cap"/>
                                     <div className="card-body">
                                         <h5 className="card-title">Lenovo</h5>
@@ -77,7 +77,7 @@ export default class Supports extends Component {
                             </div>
 
                             <div className="col-sm">
-                                <div className="card" style="width: 18rem;">
+                                <div className="card" >
                                     <img className="card-img-top" src="../../../../Assets/supports/7.png" alt="Card image cap"/>
                                         <div className="card-body">
                                             <h5 className="card-title">Apple</h5>
@@ -88,7 +88,7 @@ export default class Supports extends Component {
                                 </div>
 
                                 <div className="col-sm">
-                                    <div className="card" style="width: 18rem;">
+                                    <div className="card" >
                                         <img className="card-img-top" src="../../../../Assets/supports/8.png" alt="Card image cap"/>
                                             <div className="card-body">
                                                 <h5 className="card-title">Asus</h5>

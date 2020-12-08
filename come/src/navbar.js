@@ -22,15 +22,17 @@ class Navbar extends React.Component {
                                 Menu
                             </NavLink>
                             <div className="dropdown-menu" aria-labelledby="navbarDropdownMenuLink">
-                                <a className="dropdown-item" href="#">Laptops</a>
-                                <a className="dropdown-item" href="#">Webcams</a>
-                                <a className="dropdown-item" href="#">Microphones</a>
-                                <a className="dropdown-item" href="#">Screens</a>
-                                <a className="dropdown-item" href="#">Stationeries</a>
-                                <a className="dropdown-item" href="#">Printers</a>
-                                <a className="dropdown-item" href="#">Supports</a>
-                                <a className="dropdown-item" href="#">Keyboards and Mouses</a>
-                                <a className="dropdown-item" href="#">Blog</a>
+                            <NavLink to="/laptop" className="dropdown-item" href="#">
+                            Laptops
+                            </NavLink>
+                                <NavLink to="/webcams" className="dropdown-item" href="#">Webcams</NavLink>
+                                <NavLink to="/microphones" className="dropdown-item" href="#">Microphones</NavLink>
+                                <NavLink to="/screens" className="dropdown-item" href="#">Screens</NavLink>
+                                <NavLink to="/stationeries" className="dropdown-item" href="#">Stationeries</NavLink>
+                                <NavLink to="/printers" className="dropdown-item" href="#">Printers</NavLink>
+                                <NavLink to="/supports" className="dropdown-item" href="#">Supports</NavLink>
+                                <NavLink to="/keymouse" className="dropdown-item" href="#">Keyboards and Mouses</NavLink>
+                                <NavLink to="/blog" className="dropdown-item" href="#">Blog</NavLink>
                             </div>
                         </li>
                         <li className="nav-item">

@@ -8,7 +8,7 @@ export default class KeyMouse extends Component {
             <div className="container">
                 <div className="row">
                     <div className="col-sm">
-                        <div className="card" style="width: 18rem;">
+                        <div className="card" >
                             <img className="card-img-top" src="../../../../Assets/keymouse/1.png" alt="Card image cap"/>
                                 <div className="card-body">
                                     <h5 className="card-title">Asus</h5>
@@ -19,7 +19,7 @@ export default class KeyMouse extends Component {
                         </div>
 
                         <div className="col-sm">
-                            <div className="card" style="width: 18rem;">
+                            <div className="card" >
                                 <img className="card-img-top" src="../../../../Assets/keymouse/3.webp" alt="Card image cap"/>
                                     <div className="card-body">
                                         <h5 className="card-title">Lenovo</h5>
@@ -30,7 +30,7 @@ export default class KeyMouse extends Component {
                             </div>
 
                             <div className="col-sm">
-                                <div className="card" style="width: 18rem;">
+                                <div className="card" >
                                     <img className="card-img-top" src="../../../../Assets/keymouse/4.png" alt="Card image cap"/>
                                         <div className="card-body">
                                             <h5 className="card-title">Apple</h5>
@@ -41,7 +41,7 @@ export default class KeyMouse extends Component {
                                 </div>
 
                                 <div className="col-sm">
-                                    <div className="card" style="width: 18rem;">
+                                    <div className="card" >
                                         <img className="card-img-top" src="../../../../Assets/keymouse/2.png" alt="Card image cap"/>
                                             <div className="card-body">
                                                 <h5 className="card-title">Asus</h5>
@@ -55,7 +55,7 @@ export default class KeyMouse extends Component {
 
                                 <div className="row">
                     <div className="col-sm">
-                        <div className="card" style="width: 18rem;">
+                        <div className="card" >
                             <img className="card-img-top" src="../../../../Assets/keymouse/5.gif" alt="Card image cap"/>
                                 <div className="card-body">
                                     <h5 className="card-title">Asus</h5>
@@ -66,7 +66,7 @@ export default class KeyMouse extends Component {
                         </div>
 
                         <div className="col-sm">
-                            <div className="card" style="width: 18rem;">
+                            <div className="card" >
                                 <img className="card-img-top" src="../../../../Assets/keymouse/6.png" alt="Card image cap"/>
                                     <div className="card-body">
                                         <h5 className="card-title">Lenovo</h5>
@@ -77,7 +77,7 @@ export default class KeyMouse extends Component {
                             </div>
 
                             <div className="col-sm">
-                                <div className="card" style="width: 18rem;">
+                                <div className="card" >
                                     <img className="card-img-top" src="../../../../Assets/keymouse/7.png" alt="Card image cap"/>
                                         <div className="card-body">
                                             <h5 className="card-title">Apple</h5>
@@ -88,7 +88,7 @@ export default class KeyMouse extends Component {
                                 </div>
 
                                 <div className="col-sm">
-                                    <div className="card" style="width: 18rem;">
+                                    <div className="card" >
                                         <img className="card-img-top" src="../../../../Assets/keymouse/8.webp" alt="Card image cap"/>
                                             <div className="card-body">
                                                 <h5 className="card-title">Asus</h5>

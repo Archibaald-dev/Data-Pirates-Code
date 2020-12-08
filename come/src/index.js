@@ -10,8 +10,16 @@ import {BrowserRouter, Route, Switch, Redirect, Link, NavLink} from 'react-route
 
 const LazyHome = lazy(()=> import(/*webpackChunkName: 'homePage'*/ './features/homePage'))
 const LazySquaredMenu = lazy(() => import(/*webpackChunkName: 'squaredMenu'*/'./features/squaredMenu'));
-const LazyCategories = lazy(() => import(/*webpackChunkName: 'categories'*/'./features/categories'));
 const LazyContactPage = lazy(() => import(/*webpackChunkName: 'contact'*/'./features/contact'));
+const LazyMicrophone = lazy(() => import(/*webpackChunkName: 'microphones'*/'./features/categories/components/microphones/Microphones'));
+const LazyWebcam = lazy(() => import(/*webpackChunkName: 'webcams'*/'./features/categories/components/webcams/Webcams'));
+const LazyScreen = lazy(() => import(/*webpackChunkName: 'screens'*/'./features/categories/components/screens/Screens'));
+const LazySupport = lazy(() => import(/*webpackChunkName: 'supports'*/'./features/categories/components/supports/Supports'));
+const LazyKeyMouse = lazy(() => import(/*webpackChunkName: 'keymouse'*/'./features/categories/components/keymouse/KeyMouse'));
+const LazyPrinter = lazy(() => import(/*webpackChunkName: 'printers'*/'./features/categories/components/printers/Printers'));
+const LazyStationery = lazy(() => import(/*webpackChunkName: 'stationeries'*/'./features/categories/components/stationeries/Stationeries'));
+const LazyLaptop = lazy(() => import(/*webpackChunkName: 'laptops'*/'./features/categories/components/laptops/Laptops'));
+const LazyBlog = lazy(() => import(/*webpackChunkName: 'blog'*/'./features/categories/components/blog/Blog'));
 
 
 
@@ -32,9 +40,16 @@ class App extends Component{
 
                             <Route path="/home" component = { LazyHome } />
                             <Route path="/menu" component = { LazySquaredMenu } />
-                            <Route path="/categories" component = { LazyCategories } />
                             <Route path="/contact" component = { LazyContactPage } />
-
+                            <Route path="/laptop" component = { LazyLaptop } />
+                            <Route path="/keymouse" component = { LazyKeyMouse} />
+                            <Route path="/microphones" component = { LazyMicrophone } />
+                            <Route path="/screens" component = { LazyScreen } />
+                            <Route path="/webcams" component = { LazyWebcam } />
+                            <Route path="/stationeries" component = { LazyStationery } />
+                            <Route path="/printers" component = { LazyPrinter } />
+                            <Route path="/supports" component = { LazySupport} />
+                            <Route path="/blog" component = { LazyBlog} />
 
 
                             <Redirect to="/home"/>
