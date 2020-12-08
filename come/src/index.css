@@ -30,8 +30,11 @@ code {
   box-shadow: 0 .5rem 1rem rgba(0, 0, 0, .15)!important; 
   margin-top:0px !important; 
   width:100% !important; 
-  display: flex;
 } 
+
+.navbar ul .show {
+  display: flex;
+}
 
 .navbar .dropdown-menu a {
   text-align: center;
