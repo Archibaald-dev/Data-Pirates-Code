@@ -1,10 +1,12 @@
 import React from 'react';
-import ReactDOM from 'react-dom';
 import './index.css';
+import { BrowserRouter, Route, Switch } from 'react-router-dom';
+import Laptops from './categories.js';
 
 class Navbar extends React.Component {
     render() {
         return (
+            <BrowserRouter>
             <nav className="navbar navbar-expand-lg navbar-light">
             <a className="navbar-brand" href="#">Navbar</a>
             <button className="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNavDropdown" aria-controls="navbarNavDropdown" aria-expanded="false" aria-label="Toggle navigation">
@@ -20,7 +22,7 @@ class Navbar extends React.Component {
                     Menu
                   </a>
                   <div className="dropdown-menu" aria-labelledby="navbarDropdownMenuLink">
-                    <a className="dropdown-item" href="#">Laptops</a>
+                  <a className="dropdown-item" href={<Route path="/Laptops" component={Laptops} exact/>}>Laptops</a>
                     <a className="dropdown-item" href="#">Webcams</a>
                     <a className="dropdown-item" href="#">Microphones</a>
                     <a className="dropdown-item" href="#">Screens</a>
@@ -38,6 +40,7 @@ class Navbar extends React.Component {
               </ul>
             </div>
           </nav>
+          </BrowserRouter>
            ) ;
     }
 }
