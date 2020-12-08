@@ -11,9 +11,12 @@ const LazySquaredMenu = lazy(() => import(/*webpackChunkName: 'squaredMenu'*/'./
 class App extends Component{
     render() {
         return(
+            <>
+            <Navbar/>
             <div>
 
             </div>
+                </>
         )
     }
 }
