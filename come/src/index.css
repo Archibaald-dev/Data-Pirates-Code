@@ -1,14 +1,14 @@
 body {
   margin: 0;
-  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
-    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
+  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", "Roboto", "Oxygen",
+    "Ubuntu", "Cantarell", "Fira Sans", "Droid Sans", "Helvetica Neue",
     sans-serif;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
 }
 
 code {
-  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
+  font-family: source-code-pro, Menlo, Monaco, Consolas, "Courier New",
     monospace;
 }
 
@@ -26,11 +26,11 @@ code {
   margin: 0 20px;
 }
 
-.navbar .dropdown-menu { 
-  box-shadow: 0 .5rem 1rem rgba(0, 0, 0, .15)!important; 
-  margin-top:0px !important; 
-  width:100% !important; 
-} 
+.navbar .dropdown-menu {
+  box-shadow: 0 0.5rem 1rem rgba(0, 0, 0, 0.15) !important;
+  margin-top: 0px !important;
+  width: 100% !important;
+}
 
 .navbar ul .show {
   display: flex;
@@ -40,9 +40,9 @@ code {
   text-align: center;
 }
 
-.navbar .dropdown { 
-  position:static !important; 
-} 
+.navbar .dropdown {
+  position: static !important;
+}
 
 .card img {
   max-height: 200px;
@@ -55,4 +55,36 @@ code {
 
 form {
   padding: 50px;
+}
+
+/*________________HomePage_______________*/
+
+.logoHome {
+  margin: 200px 0 350px 450px;
+  width: 500px;
+}
+
+.firstTitle {
+  margin: 0 0 50px 620px;
+}
+
+.firstParagraph {
+  margin-left: 480px;
+  width: 500px;
+  text-align: justify;
+}
+
+.image2 {
+  margin: 200px 0 250px 120px;
+  width: 500px;
+}
+
+.secondTitle {
+  margin: -550px 0 50px 650px;
+}
+
+.secondParagraph {
+  margin-left: 650px;
+  width: 500px;
+  text-align: start;
 }
