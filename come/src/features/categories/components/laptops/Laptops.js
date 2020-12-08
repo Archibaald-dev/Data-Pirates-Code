@@ -2,7 +2,7 @@ import React, { Component } from 'react';
 import one from '../../../../Assets/laptop/2.png'
 import two from '../../../../Assets/laptop/2.png'
 import three from '../../../../Assets/laptop/3.png'
-import four from '../../../../Assets/laptop/laptop4.png'
+import four from '../../../../Assets/laptop/4.png'
 import five from '../../../../Assets/laptop/5.png'
 import six from '../../../../Assets/laptop/6.png'
 import seven from '../../../../Assets/laptop/7.png'

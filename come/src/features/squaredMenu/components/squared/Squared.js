@@ -7,7 +7,7 @@ import stationerie from '../../../../Assets/stationeries/4.png'
 import printer from '../../../../Assets/printer/6.png'
 import support from '../../../../Assets/supports/3.png'
 import keymouse from  '../../../../Assets/keymouse/1.png'
-import blog from '../../../../Assets/blog/images.jpg'
+import blog from '../../../../Assets/blog/2.png'
 
 
 
