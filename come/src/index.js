@@ -7,6 +7,7 @@ import Navbar from './navbar.js'
 
 const LazySquaredMenu = lazy(() => import(/*webpackChunkName: 'squaredMenu'*/'./features/squaredMenu'));
 const LazyCategories = lazy(() => import(/*webpackChunkName: 'categories'*/'./features/categories'));
+const LazyContactPage = lazy(() => import(/*webpackChunkName: 'contact'*/'./features/contact'));
 
 
 class App extends Component{

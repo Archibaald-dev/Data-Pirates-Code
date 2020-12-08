@@ -1,5 +1,5 @@
 import React from 'react';
-import {Laptops} from "./components";
+import {Laptops, Webcams, Microphones, Screens, Stationeries, Printers, Supports, KeyMouse, Blog} from "./components";
 
 
 const Categories = () =>{
