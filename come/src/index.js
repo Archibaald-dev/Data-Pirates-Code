@@ -13,9 +13,12 @@ const LazyContactPage = lazy(() => import(/*webpackChunkName: 'contact'*/'./feat
 class App extends Component{
     render() {
         return(
+            <>
+            <Navbar/>
             <div>
 
             </div>
+                </>
         )
     }
 }

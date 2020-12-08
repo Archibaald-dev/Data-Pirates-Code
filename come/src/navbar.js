@@ -1,6 +1,8 @@
 import React from 'react';
 import ReactDOM from 'react-dom';
 import './index.css';
+import {BrowserRouter, Route, Switch, Redirect, Link, NavLink} from 'react-router-dom';
+
 
 class Navbar extends React.Component {
     render() {
@@ -13,7 +15,7 @@ class Navbar extends React.Component {
             <div className="collapse navbar-collapse" id="navbarNavDropdown">
               <ul className="navbar-nav">
                 <li className="nav-item active">
-                  <a className="nav-link" href="#">Home <span className="sr-only">(current)</span></a>
+                  <NavLink to="/" className="nav-link" href="#">Home <span className="sr-only">(current)</span></NavLink>
                 </li>
                 <li className="nav-item dropdown">
                   <a className="nav-link dropdown-toggle" href="#" id="navbarDropdownMenuLink" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
